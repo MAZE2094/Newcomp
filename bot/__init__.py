@@ -53,9 +53,7 @@ logging.getLogger("urllib3").setLevel(logging.INFO)
 LOGS = logging.getLogger(__name__)
 
 try:
-    bot = TelegramClient(None, APP_ID, API_HASH, *, connection=<class
-’telethon.network.connection.tcpfull.ConnectionTcpFull’>,
-use_ipv6=False, proxy=None, timeout=10,
+    bot = TelegramClient(None, APP_ID, API_HASH, use_ipv6=False, proxy=None, timeout=10,
 request_retries=5, connection_retries=6,
 retry_delay=1, auto_reconnect=True, sequential_updates=False,
 flood_sleep_threshold=60)
