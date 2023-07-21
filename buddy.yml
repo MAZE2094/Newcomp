@@ -1,0 +1,5 @@
+  - action: "Build Docker image"
+    type: "DOCKERFILE"
+    dockerfile_path: "/DOCKERFILE"
+    do_not_prune_images: true
+  
